@@ -17,9 +17,7 @@ def main():
     </div>
     """, unsafe_allow_html=True)
     st.markdown("""
-    <div style='text-align: center;'>
-        <img src= url("https://i.ibb.co/FYgXtTZ/3d-rendering-emotions.jpg")>
-    </div>
+        <img src= url("https://i.ibb.co/FYgXtTZ/3d-rendering-emotions.jpg") style='text-align: center;'>
     """, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
