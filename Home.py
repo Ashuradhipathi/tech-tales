@@ -17,7 +17,7 @@ def main():
     </div>
     """, unsafe_allow_html=True)
     url="https://i.ibb.co/FYgXtTZ/3d-rendering-emotions.jpg"
-    st.image(url , width=200)
+    st.image(url)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
