@@ -18,7 +18,7 @@ def main():
     """, unsafe_allow_html=True)
     url="https://i.ibb.co/FYgXtTZ/3d-rendering-emotions.jpg"
     st.image(url , width=400)
-     st.markdown(
+    st.markdown(
         """
         <style>
             .centered-image {
