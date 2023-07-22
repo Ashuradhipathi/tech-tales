@@ -12,6 +12,6 @@ from twilio.rest import Client as cl
 #collection = db["comments"]
 def main():
     st.title("User Records")
-    st.head(" Ever wondered about the person behind the code? With TechTales, you can now access personal information such as names, emails, and bios of GitHub users, shared willingly by them in the spirit of openness and connection.")
+    st.header(" Ever wondered about the person behind the code? With TechTales, you can now access personal information such as names, emails, and bios of GitHub users, shared willingly by them in the spirit of openness and connection.")
 if __name__ == "__main__":
     main()
