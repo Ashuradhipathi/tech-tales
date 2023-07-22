@@ -13,7 +13,7 @@ from twilio.rest import Client as cl
 def main():
     st.markdown("""
     <div style='text-align: center;'>
-        <h2>Tech-Tales</h2>
+        <h1>Tech-Tales</h1>
     </div>
     """, unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
@@ -21,6 +21,6 @@ def main():
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
-    st.subheader(" Ever wondered about the person behind the code? With TechTales, you can now access personal information such as names, emails, and bios of GitHub users, shared willingly by them in the spirit of openness and connection.")
+    st.write(" Ever wondered about the person behind the code? With TechTales, you can now access personal information such as names, emails, and bios of GitHub users, shared willingly by them in the spirit of openness and connection.")
 if __name__ == "__main__":
     main()
