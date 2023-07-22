@@ -1,3 +1,4 @@
 streamlit
 pymongo
 twilio
+pip version 22.0.3
