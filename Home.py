@@ -20,7 +20,10 @@ def main():
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.write(" Ever wondered about the person behind the code? With TechTales, you can now access personal information such as names, emails, and bios of GitHub users, shared willingly by them in the spirit of openness and connection.")
+     st.markdown("""
+    <div style='text-align: center;'>
+        <h5> Ever wondered about the person behind the code? With TechTales, you can now access personal information such as names, emails, and bios of GitHub users, shared willingly by them in the spirit of openness and connection.</h5>
+    </div>
+    """, unsafe_allow_html=True)
 if __name__ == "__main__":
     main()
