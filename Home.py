@@ -11,7 +11,16 @@ from twilio.rest import Client as cl
 #db = client["Tech_Tales"]
 #collection = db["comments"]
 def main():
-    st.title("User Records")
+    st.markdown("""
+    <div style='text-align: center;'>
+        <h2>Tech-Tales</h2>
+    </div>
+    """, unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
     st.subheader(" Ever wondered about the person behind the code? With TechTales, you can now access personal information such as names, emails, and bios of GitHub users, shared willingly by them in the spirit of openness and connection.")
 if __name__ == "__main__":
     main()
