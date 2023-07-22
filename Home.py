@@ -18,6 +18,23 @@ def main():
     """, unsafe_allow_html=True)
     url="https://i.ibb.co/FYgXtTZ/3d-rendering-emotions.jpg"
     st.image(url , width=400)
+     st.markdown(
+        """
+        <style>
+            .centered-image {
+                display: flex;
+                justify-content: center;
+            }
+            .centered-image img {
+                max-width: 100%;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Use a container div with the custom CSS class to center the image
+    st.markdown('<div class="centered-image">' + st.markdown.gfm_container('Centered Image') + "</div>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown("<br>", unsafe_allow_html=True)
