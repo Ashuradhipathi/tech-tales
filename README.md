@@ -1,11 +1,6 @@
 # Tech-Tales
 # Introduction 
-<table style="border: none;">
-<tr>
-  <td>TechTales bridges the gap between developers, tech enthusiasts, and dreamers, inviting them to a world of shared experiences and mutual support. So, unlock the hidden narratives of coders, embrace the power of cathartic confessions, </td>
-<td><img src="https://i.ibb.co/5G3MvFC/3d-rendering-emotions.jpg"/></td>
-</tr>
-</table>
+Tech-Tales bridges the gap between developers, tech enthusiasts, and dreamers, inviting them to a world of shared experiences and mutual support. So, unlock the hidden narratives of coders, embrace the power of cathartic confessions.
 
 ## How to run this project 🚀💻
 This guide will walk you through the steps to run a Streamlit app in the cloud by forking the repository, adding secrets, and other necessary steps.
