@@ -3,7 +3,7 @@
 <table style="border: none;">
 <tr>
   <td>TechTales bridges the gap between developers, tech enthusiasts, and dreamers, inviting them to a world of shared experiences and mutual support. So, unlock the hidden narratives of coders, embrace the power of cathartic confessions, </td>
-<td><img src=""/></td>
+<td><img src="https://i.ibb.co/FYgXtTZ/3d-rendering-emotions.jpg"/></td>
 </tr>
 </table>
 
