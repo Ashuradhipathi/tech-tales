@@ -37,7 +37,7 @@ def main():
             st.error("User ID not found!")
 
     # Comment box for the user
-    comment = st.write("Write a post about", user_records["name"], key="itachi")
+    comment = st.text_input("Write a post anonymously!",key="itachi")
 
     if st.button("post" , key="naruto"):
         if check_user_exists(username):
@@ -51,7 +51,7 @@ def main():
         if check_user_exists(username):
             retrieve_comments(username)
         else:
-            st.warning("Oops! no comments found for ", username)
+            st.warning("Oops! no comments found ")
 
 def add_comment(username, comment):
     collection.update_one(
