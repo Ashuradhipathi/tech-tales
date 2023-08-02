@@ -15,7 +15,7 @@ def main():
     st.title("User Records")
 
     # Get user ID from input
-    search_id = st.text_input("Enter User ID to search",key="bingo_book")
+    search_id = st.text_input("What's their handle on github?",key="bingo_book")
     username = search_id
 
     if st.button("Search"):
@@ -39,7 +39,7 @@ def main():
     # Comment box for the user
     comment = st.text_input("Enter Comment" , key="itachi")
 
-    if st.button("Add Comment" , key="naruto"):
+    if st.button("Write a post about" username "anonymously!" , key="naruto"):
         if check_user_exists(username):
             add_comment(username, comment)
             st.success("Comment added successfully!")
@@ -47,11 +47,11 @@ def main():
             insert_user(username, comment)
             st.warning("User does not exist.")
 
-    if st.button("Show Comments" , key="minato"):
+    if st.button("comments on" username , key="minato"):
         if check_user_exists(username):
             retrieve_comments(username)
         else:
-            st.warning("No comments found for the user.")
+            st.warning("Oops! no comments found for" username)
 
 def add_comment(username, comment):
     collection.update_one(
