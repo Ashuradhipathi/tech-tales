@@ -39,7 +39,7 @@ def main():
     # Comment box for the user
     comment = st.text_input("Write a post anonymously!",key="itachi")
 
-    if st.button("post" , key="naruto"):
+    if st.button("post", key="naruto"):
         if check_user_exists(username):
             add_comment(username, comment)
             st.success("Comment added successfully!")
