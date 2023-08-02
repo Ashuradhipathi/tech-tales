@@ -47,7 +47,7 @@ def main():
             insert_user(username, comment)
             st.warning("User does not exist.")
 
-    if st.button("comments on" username , key="minato"):
+    if st.button("comments on", username , key="minato"):
         if check_user_exists(username):
             retrieve_comments(username)
         else:
