@@ -51,7 +51,7 @@ def main():
         if check_user_exists(username):
             retrieve_comments(username)
         else:
-            st.warning("Oops! no comments found for" username)
+            st.warning("Oops! no comments found for " username)
 
 def add_comment(username, comment):
     collection.update_one(
