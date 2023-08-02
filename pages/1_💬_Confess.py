@@ -37,7 +37,7 @@ def main():
             st.error("User ID not found!")
 
     # Comment box for the user
-    comment = st.text_input("Write a post about", username, key="itachi")
+    comment = st.write("Write a post about", user_records["name"], key="itachi")
 
     if st.button("post" , key="naruto"):
         if check_user_exists(username):
